@@ -122,4 +122,4 @@ document.querySelectorAll('.gallery-pair__item img').forEach(img => {
   img.parentNode.insertBefore(a, img);
   a.appendChild(img);
 });
-GLightbox({ touchNavigation: true, closeOnOutsideClick: true });
+GLightbox({ selector: 'a.glightbox', touchNavigation: true, closeOnOutsideClick: true });
